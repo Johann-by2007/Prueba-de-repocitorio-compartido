@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+nav{
+     background-color: #73ff00;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #0fb300;    
+    border-radius: 10px;         
+    padding: 20px;              
+    width: 94%;                 
+    margin: 10px auto;           
+    background-color: #57e604dc;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(
+    to bottom, 
+    #65f611, 
+    #ffffff
+  );
+}
+
+.img-Header img {
+    width: 5%;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+}
+
