@@ -1,13 +1,13 @@
 const user ={
-    name: "johann",
-    lastname: "bohorquez",
-    age: 30,
+    name: "David",
+    lastname: "Mesa",
+    age: 20,
     address:{
-        country: "colombia",
-        city: "Ibague",
+        country: "Ecuador",
+        city: "quito",
         street: "calle 117 # 7-70"
     },
-    friends: ["maria", "pedro",],
+    friends: ["Estefany", "jose",],
     ative: true,
     sendMall(){
         return "sending email...";
@@ -18,3 +18,4 @@ console.log(user.address.city);
 console.log(user.friends);
 console.log(user.active);
 console.log(user.sendMall());
+
